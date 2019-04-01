@@ -12,7 +12,7 @@ switch (request) {
     case 'spotify-this-song':
         songSearch();
         break;
-    case 'move-this':
+    case 'movie-this':
         movieSearch();
         break;
     case 'do-what-it-says':
@@ -42,7 +42,8 @@ function songSearch() {
 }
 
 function movieSearch() {
-    axios.get("http://www.omdbapi.com/?t=" + `${userQuery}` + "&y=&plot=short&apikey=trilogy").then(
+    console.log('movieSearch function ran');
+    axios.get(`http://www.omdbapi.com/?t=${userQuery}&y=&plot=short&apikey=trilogy`).then(
         function (response) {
             if (!response) {
                 return console.log('null request');
