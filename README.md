@@ -13,10 +13,14 @@ A log.txt file keeps track of each query and its results.
 Spotify api functioning example -
 ![Spotify api functioning example](/demo/spotifyexample.png)
 
+OMDB api functioning example - 
 ![OMDB api functioning example](/demo/omdbexample.png)
 
+Bandsintown api functioning example -
 ![Concert this api functioning example](/demo/bandsintown.png)
 
+Reading random.txt file example -
 ![Random.txt read example](/demo/randomtextread.png)
 
+Logging query results example -
 ![Logging query example](/demo/logtxt.png)
