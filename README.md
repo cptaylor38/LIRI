@@ -2,10 +2,10 @@
 
 A node js app that uses console commands to return information from the omdb, bandsintown, and spotify apis with set commands:
 
-    1. spotify-this-song [songName]
-    2. movie-this [movieTitle]
-    3. concert-this [bandName]
-    4. do-what-it-says (Takes in commands based of of a random.txt file);
+    1. node spotify-this-song [songName]
+    2. node movie-this [movieTitle]
+    3. node concert-this [bandName]
+    4. node do-what-it-says (Takes in commands based of of a random.txt file);
 
 A log.txt file keeps track of each query and its results.
 
